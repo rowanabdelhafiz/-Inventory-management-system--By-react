@@ -1,0 +1,176 @@
+/* 
+
+body {
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+form {
+  width: 500px;
+  background: transparent;
+  border: 2px solid  rgb(255, 255, 255,.2);
+  backdrop-filter: blur(30px);
+  box-shadow:0 0 10px rgb(0,0,0,.2);
+  color: azure;
+  border-radius: 10px;
+  padding: 30px 40px;
+  box-sizing: border-box; 
+
+}
+.blackboard{
+  background: url('../Assest/form.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.from .form-control{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.table-container {
+  width: 100%; 
+  height: calc(100vh - 140px); 
+  overflow: auto; 
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.table th {
+  background-color: hsl(248, 86%, 15%);
+  color: white;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+h4 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 1em;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.button-container {
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+}
+
+.btn-info,.add-supplier-button{
+font-size: 1.5em;
+color: white;
+font-weight: 500;
+letter-spacing: -0.025em;
+background-color: hsl(248, 86%, 15%);
+background-image:
+  linear-gradient(180deg,
+    hsl(190, 50%, 85%) 10%,
+    transparent calc(100% - 10%)
+  );
+background-repeat: no-repeat;
+background-position: center 45%;
+background-size: 100% 200%;
+padding: 0.5em 1em;
+border-radius: 0.8em;
+border: none;
+box-shadow:
+  0 -0.2em 0.2em transparent,
+  0 0.2em 0.2em transparent,
+  0 0.1em 0.15em -0.1em hsla(190, 50%, 50%, 0.46),
+  0 0.1em 0.375em hsla(190, 40%, 40%, 0.3);
+
+position: relative;
+transition: all 0.5s ease;
+outline: none;
+margin-right: 10px; 
+}
+.add-supplier-button::before,
+.btn-info::before {
+content: "";
+inset: 0;
+position: absolute;
+border-radius: 0.5em;
+background-image:
+  radial-gradient(ellipse,
+    hsla(190, 100%, 90%, .8) 20%,
+    transparent 50%,
+    transparent 200%
+  ),
+  linear-gradient(90deg,
+    hsl(0deg, 0%, 25%) -10%,
+    transparent 30%,
+    transparent 70%,
+    hsl(0deg, 0%, 25%) 110%
+  );
+box-shadow:
+  inset 0 0.1em 0.375em hsla(0deg, 0%, 0%, 0.8),
+  inset 0 -0.025em 0.1em rgba(255, 255, 255, 0.4),
+  inset 0 -1px 3px hsla(190, 80%, 50%, .75);
+background-blend-mode: overlay;
+background-repeat: no-repeat;
+background-size: 200% 80%, cover;
+background-position: center 220%;
+mix-blend-mode: overlay;
+filter: blur(0px);
+}
+.add-supplier-button:hover,
+.add-supplier-button:active,
+.add-supplier-button:focus,
+.btn-info:hover,
+.btn-info:active,
+.btn-info:focus {
+outline: none;
+box-shadow:
+  0 -0.1em 0.5em hsla(5, 70%, 80%, 0.3),
+  0 0.2em 0.6em hsla(190, 70%, 80%, 0.5),
+  0 0.1em 0.15em -0.1em hsl(190 90% 70%),
+  0 0.1em 0.2em hsla(190,20%,30%, 0.2),
+  inset 0 -1px 1px rgba(255,255,255,0.2);
+background-position: center 44%;
+} */
